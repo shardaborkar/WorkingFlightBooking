@@ -18,8 +18,8 @@ import mainPageObject.TravelHomePage;
 
 public class TopSectionTest extends BaseTest {
 
-	@Test(dataProvider="MulitiCity")
-	public void searchWithMulticity(String departCity,String arrivalCity, String month,String dateMonth,String adults,String childs,String infants,String curr) throws InterruptedException, IOException {
+	@Test()
+	public void searchWithMulticity() throws InterruptedException, IOException {
 		
 		System.out.println(travelHomePage.topSection().getFlightAttribute());
 	}}
