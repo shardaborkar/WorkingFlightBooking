@@ -45,7 +45,7 @@ public class BaseTest {
 	public TravelHomePage travelHomePage;
 	public WebDriver initializeDriver() throws IOException{
 		
-		
+		System.out.println("This is webhook generated trigger");
 		Properties pro=new Properties();
 		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+ "\\src\\main\\java\\resources\\global.properties");
 		pro.load(fis);
