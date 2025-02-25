@@ -11,8 +11,7 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
-        }
-       
+        } 
     }
     post{
 always{
