@@ -14,7 +14,7 @@ pipeline {
     }
     post{
 always{
-archiveArtifacts artifacts: '*//*/*.jar', followSymlinks: false
+archiveArtifacts artifacts: 'target/*.jar', followSymlinks: false
 
         emailext body: '''Hi,
 
