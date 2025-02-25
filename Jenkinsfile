@@ -22,4 +22,4 @@ archiveArtifacts artifacts: '*//*/*.jar', followSymlinks: false
 This is status of pipeline executed.
 
 Thanks,''', subject: 'Pipeline Status', to: 'borkar.sharda92@gmail.com'
-    }
+    }}}
