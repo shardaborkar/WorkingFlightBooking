@@ -3,7 +3,7 @@ agent any
 stages{    
     stage("BranchTest"){
         steps{
-            echo "This is main branch"
+            echo "This is test branch"
         }
     }
 }
